@@ -74,7 +74,7 @@ mechanism-ai-models/
 │   └── integration_engine.py (orchestrates model execution, applies mappings, and manages iterative updates)
 │
 └── workflows: end-to-end pipelines implementing the modeling and discovery process
-    └── closed_loop_pipeline (iterative workflow integrating design, modeling, uncertainty evaluation & experimental feedback)
+    └── closed_loop_pipeline (iterative workflow of design, modeling, uncertainty evaluation & experimental feedback)
 ```
 ## 3. Model Compatibility and Integration
 
