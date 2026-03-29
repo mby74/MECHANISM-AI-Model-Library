@@ -13,7 +13,7 @@ Specifically, the framework aims to:
 The TLR4–MD-2 signaling pathway is used as a testbed system, with the broader goal of developing a generalizable platform for biological discovery and design.
 
 
-## Model Library Architecture
+## 2. Model Library Architecture
 
 The MECHANISM-AI model library is organized as a modular, multi-scale framework that integrates mechanistic models, hybrid AI approaches, and uncertainty-aware decision-making within a unified system.
 
@@ -76,3 +76,54 @@ mechanism-ai-models/
 └── workflows: end-to-end pipelines implementing the modeling and discovery process
     └── closed_loop_pipeline (iterative workflow integrating design, modeling, uncertainty evaluation, and experimental feedback)
 ```
+## 3. Model Compatibility and Integration
+
+Compatibility across models is ensured by design through a unified architecture that enables interoperability across biological scales (molecular → receptor → signaling → cellular → tissue) and modeling paradigms (mechanistic and hybrid AI models). This framework is implemented across the repository structure (`models/`, `hybrid_models/`, `interfaces/`, `mappings/`, `mediator/`, and `uq/`) and is governed by the following principles.
+
+
+
+### 3.1. Design for Interoperability from the Start (Shared Interfaces)
+
+All models in the `models/` and `hybrid_models/` directories follow standardized input and output interfaces defined in `interfaces/input_schema.py` and `interfaces/output_schema.py`. Each model may use different internal formulations such as ordinary differential equations, stochastic models, or physics-informed neural networks, but must accept and return a consistent set of variables including molecular features, receptor activation states, signaling outputs, and uncertainty estimates. This ensures seamless integration across scales within a unified workflow.
+
+
+
+### 3.2. Cross-Scale Mapping Functions
+
+Compatibility across scales is enforced through mapping functions defined in the `mappings/` directory. These functions formalize how outputs from one scale become inputs to another, ensuring consistent propagation of biological information. For example, molecular-scale outputs such as binding affinity and interface geometry are mapped to receptor-scale variables such as probability of dimerization and activation likelihood in `molecular_to_receptor.py`. Receptor activation states are translated into signaling pathway rate constants in `receptor_to_signaling.py`, and signaling outputs such as NF-κB dynamics are mapped to cellular responses including cytokine production in `signaling_to_cellular.py`. These mappings preserve biological meaning while ensuring computational consistency.
+
+
+
+### 3.3. Time-Scale Alignment Across Models
+
+Models at different biological scales operate on different time resolutions, ranging from molecular dynamics at nanoseconds to microseconds, to signaling processes at minutes to hours, and cellular responses at hours to days. Compatibility is achieved through time-scale alignment strategies implemented within model wrappers and hybrid models. These include coarse-graining of fast molecular processes, surrogate modeling for efficient approximation, and time rescaling to match signaling and cellular dynamics. These approaches enable consistent information exchange without temporal mismatch.
+
+
+
+### 3.4. Model Wrappers for Modular Integration
+
+Each model is encapsulated within a standardized wrapper that enables plug-and-play integration via `mediator/integration_engine.py`. These wrappers define how models receive inputs, produce outputs, and expose metadata such as scale and purpose. This abstraction allows models from both `models/` and `hybrid_models/` to be easily compared, replaced, or combined without modifying the overall workflow, thereby supporting modularity and extensibility.
+
+
+
+### 3.5. Model Metadata for Consistency and Selection
+
+All models include structured metadata aligned with the `model_purpose/` classification. This metadata defines the role and compatibility of each model within the system and includes elements such as the model name (for example, `nfkb_model_v1`), the biological scale, the modeling purpose, the defined inputs and outputs consistent with interface specifications, the underlying assumptions, and the type of uncertainty representation. This structured description enables systematic model comparison, selection, and integration across the workflow.
+
+
+
+### 3.6. Mediator Layer for System Integration
+
+A central integration layer implemented in `mediator/integration_engine.py` coordinates all model interactions. Instead of directly connecting models across scales, the framework uses this mediator to manage execution, apply cross-scale mappings, enforce interface compatibility, and control iterative updates. The integration follows a structured pattern in which design outputs are passed to the mediator, evaluated by models, and then returned to the mediator for progression to the next stage. This ensures that all interactions are controlled, consistent, and traceable.
+
+
+
+### 3.7. Uncertainty Quantification as the Organizing Principle
+
+Uncertainty quantification, implemented in the `uq/` directory, serves as the primary mechanism for coordinating model interaction and decision-making. It is used to reconcile conflicting predictions across models, determine which models are most reliable under specific conditions, and combine outputs when appropriate. It also guides model selection through `uq/model_selection/` and informs experimental prioritization. By incorporating uncertainty throughout the workflow, the system becomes adaptive and data-driven.
+
+
+
+## 4. Integration with Workflow
+
+These principles are operationalized in `workflows/closed_loop_pipeline/`, where AI-guided design generates candidate perturbations, models from `models/` and `hybrid_models/` evaluate system responses, mappings and interfaces ensure cross-scale consistency, the mediator coordinates execution and data flow, and uncertainty quantification guides decision-making and refinement. In summary, this architecture ensures that the model library functions as a coherent, interoperable system rather than a collection of independent models.
