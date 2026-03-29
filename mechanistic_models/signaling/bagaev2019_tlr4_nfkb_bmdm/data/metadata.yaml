@@ -1,0 +1,34 @@
+name: bagaev2019_tlr4_nfkb_bmdm
+citation: "Bagaev AV et al. Scientific Reports (2019) 9:4563"
+doi: "10.1038/s41598-018-36052-5"
+biomodels_id: "MODEL1809230001"
+
+scale: signaling
+purpose: forward
+
+inputs:
+  - lps_concentration
+  - initial_basal_nuclear_nfkb
+
+outputs:
+  - phosphorylated_nfkb
+  - nuclear_nfkb
+  - ikba
+  - predicted_time_to_peak
+
+required_data:
+  - nfkb_nuclear_translocation_timecourse
+  - lps_dose
+
+equation_source: "SBML model and associated publication"
+data_source: "Digitized from Figure 3B of the paper"
+
+reproducibility:
+  target_figure: "Figure 3B"
+  status: "in_progress"
+  notebook: "notebooks/reproduce_figure3B.ipynb"
+
+traceability:
+  literature_linked: true
+  data_digitized_from_figure: true
+  code_linked_to_figure: true
