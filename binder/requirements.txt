@@ -6,9 +6,9 @@ pandas==2.2.2
 
 # Machine learning
 scikit-learn==1.5.1
-torch
+torch==2.0.0
 
 # Jupyter environment
-notebook
-ipykernel
+notebook==7.2.1
+jupyterlab==4.2.3
 
