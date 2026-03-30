@@ -1,9 +1,5 @@
 # MECHANISM-AI-Model-Library
 
-# 🚀 MECHANISM-AI  
-**Multi-scale, Explainable Control and Hypothesis-driven Analysis of Nonlinear Systems via Mechanistic AI**
-
----
 
 ## 1. Overview
 
@@ -19,13 +15,13 @@ The framework integrates:
 
 The **TLR4-mediated immune signaling pathway** is used as a testbed system, while the overall goal is to develop a generalizable AI-enabled scientific discovery platform.
 
----
+
 
 ## 2. Motivation
 
 Current AI-driven approaches in biology often optimize binding affinity but fail to predict functional outcomes (e.g., signaling response). Biological systems are nonlinear, multi-scale, and highly context-dependent.   
 
-**MECHANISM-AI addresses this gap by linking** MECHANISM-AI addresses this gap by linking predicted molecular structures to multi-scale dynamics across molecular, receptor, signaling, cellular, and tissue levels, enabling the prediction of functional outcomes such as pathway activation, nonlinear signaling responses, and system-level behavior.
+**MECHANISM-AI addresses this gap by linking** predicted molecular structures to multi-scale dynamics across molecular, receptor, signaling, cellular, and tissue levels, enabling the prediction of functional outcomes such as pathway activation, nonlinear signaling responses, and system-level behavior.
 
 **Structure → Dynamics → Function**
 
@@ -36,11 +32,8 @@ This enables:
 
 This aligns with the DOE GENESIS Mission goal of achieving AI advantage in scientific discovery.
 
----
 
-
-
-## 1. Project Goal
+## 3. Overarching Goal
 
 The goal of this project is to develop a multi-scale, AI–mechanistic modeling framework for understanding and controlling nonlinear biological systems.
 
@@ -54,6 +47,32 @@ The TLR4–MD-2 signaling pathway is used as a testbed system, with the broader 
 
 
 ![Picture2](https://github.com/user-attachments/assets/7f82896d-744a-4f20-a4e0-eaecd2562b64)
+
+
+## 3. Phase I Objectives (9 Months)
+
+MECHANISM-AI is designed to demonstrate measurable improvements in (i) prediction accuracy of functional biological responses, (ii) speed of scientific discovery, (iii) interpretability (discovery of governing rules), and (iv) reduction of experimental search space. This repository supports a Phase I DOE GENESIS project aimed at demonstrating a working AI-enabled scientific discovery workflow.
+
+### Deliverables:
+
+- Prototype multi-scale mechanistic model of TLR4 signaling  
+- Hybrid AI–mechanistic modeling pipeline  
+- Uncertainty-aware prediction system  
+- Iterative design–test–learn workflow  
+- Demonstration of AI advantage, including:
+  - Improved prediction of NF-κB signaling response  
+  - Reduced experimental search space  
+  - Identification of nonlinear control regimes  
+
+## 4. Scalability, DOE Integration and Future Directions (Phase II Vision)
+
+This framework is designed for extension to other biological and dynamical systems, integration with DOE AI ecosystems (e.g., American Science Cloud); large-scale simulation using HPC (e.g., ORNL Frontier)  
+and multimodal data integration across experiments and models.  The future directions (Phase II Vision) include 
+
+- Expansion to multi-system biological and environmental models  
+- Generalization to energy-relevant complex systems  
+- Development of a shared AI–mechanistic model library  
+- Deployment as a scalable scientific discovery platform  
 
 ## 2. Workflow
 We use the following workflow:
