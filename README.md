@@ -13,7 +13,8 @@ This project aims to:
 The TLR4–MD-2 signaling pathway is used as a testbed system, with the broader goal of developing a generalizable platform for biological discovery and design. This is significant bacuase excessive Toll-like receptor 4 (TLR4) activation drives harmful inflammation in pediatric conditions including septic shock and severe Gram-negative infections. Current approaches broadly suppress inflammation and risk impairing host defense. There is currently no approved therapy that selectively attenuates lipopolysaccharide (LPS)-driven signaling while preserving protective immune response. There is an urgent need to develop precision approaches to block pathogenic inflammation while preserving immunity. Conventional one-shot design pipelines optimize structural affinity but do not incorporate functional signaling feedback. As shown in Figure 1, we propose an iterative AI framework that integrates experimental signaling data to refine design hypotheses and improve immune modulation. 
 
 
-![Picture1](https://github.com/user-attachments/assets/80f1f194-cb20-45a2-9004-dcccae3749d7)
+
+![Picture2](https://github.com/user-attachments/assets/49ed3d4a-ae9d-4030-b79c-161e3657712a)
 
 
 ## 2. Model Library Architecture
