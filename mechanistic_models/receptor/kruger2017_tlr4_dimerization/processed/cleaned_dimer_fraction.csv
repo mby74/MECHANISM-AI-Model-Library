@@ -1,0 +1,4 @@
+condition,monomer_fraction,dimer_fraction
+no_ligand,0.52,0.48
+agonist_lps,0.30,0.70
+antagonist_lps,0.70,0.30
