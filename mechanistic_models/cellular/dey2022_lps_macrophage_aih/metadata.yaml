@@ -1,0 +1,37 @@
+name: dey2022_lps_macrophage_response
+citation: "Dey S, Boucher D, Pitchford J, Lagos D. Wellcome Open Research (2022) 7:29"
+doi: "10.12688/wellcomeopenres.17557.2"
+
+scale: cellular
+purpose: forward
+
+inputs:
+  - lps_stimulation_condition
+  - challenge_timing
+  - cell_type
+
+outputs:
+  - tnf_expression
+  - il6_expression
+  - il1b_expression
+  - nos2_expression
+  - cell_state_distribution
+
+required_data:
+  - single_cell_or_population_response_data
+  - timepoint_annotations
+  - marker_identity
+
+equation_source: "Dey et al. (2022) paper and associated NoRM repository"
+data_source: "Published CSV files from the NoRM repository"
+
+reproducibility:
+  target_figure: "One BMDM response figure using a minimal marker dataset"
+  status: "in_progress"
+  notebook: "notebooks/reproduce_bmdm_tnf.ipynb"
+
+traceability:
+  literature_linked: true
+  public_code_linked: true
+  data_digitized_from_figure: false
+  code_linked_to_figure: true
