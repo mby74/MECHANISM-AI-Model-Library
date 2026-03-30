@@ -1,0 +1,17 @@
+n_samples: 300
+
+parameter_ranges:
+  basal_nfkb_fraction: [0.0, 0.4]
+  lps_stimulation_strength: [0.5, 1.5]
+  k_act: [0.03, 0.08]
+  k_deg: [0.005, 0.02]
+
+time_grid:
+  start: 0
+  end: 180
+  n_points: 1801
+
+model_type: linear_regression
+targets:
+  - time_to_peak
+  - peak_nfkb
