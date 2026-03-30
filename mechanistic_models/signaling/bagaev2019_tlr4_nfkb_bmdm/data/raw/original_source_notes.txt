@@ -1,0 +1,20 @@
+Source paper:
+Bagaev AV et al. Scientific Reports. 2019;9:4563.
+
+Figure reference:
+Figure 3 (NF-κB nuclear translocation dynamics)
+
+Data type:
+No raw numerical dataset was available.
+Values were approximated from reported trends.
+
+Key extracted values:
+- 0% basal NF-κB → ~110 min
+- 10% basal NF-κB → ~75 min
+- 30% basal NF-κB → ~55 min
+
+Purpose:
+Provide minimal reproducible targets for validating reduced model behavior.
+
+Notes:
+These values are approximate and intended only for qualitative reproduction.
