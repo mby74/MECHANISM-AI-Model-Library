@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def simulate_nfkb(t, k_act, k_deg, S, B):
     """
     Simulate reduced NF-κB dynamics.
@@ -19,12 +20,15 @@ def simulate_nfkb(t, k_act, k_deg, S, B):
     N[0] = B
 
     for i in range(1, len(t)):
-        dt = t[i] - t[i-1]
-        dN = k_act * (1 - N[i-1]) * S - k_deg * N[i-1]
-        N[i] = N[i-1] + dt * dN
+        dt = t[i] - t[i - 1]
+        dN = k_act * (1 - N[i - 1]) * S - k_deg * N[i - 1]
+        N[i] = N[i - 1] + dt * dN
 
     return N
 
 
 def time_to_peak(t, N):
+    """
+    Compute time to peak NF-κB.
+    """
     return t[np.argmax(N)]
