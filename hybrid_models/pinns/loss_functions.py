@@ -18,6 +18,8 @@ def pinn_residual(model, t):
         create_graph=True
     )[0]
 
+#    dNFkB_dt = k1 * receptor_activation - k2 * NFkB
+#residual = dNFkB_dt - (k1 * receptor_activation - k2 * NFkB)
     residual = dx_dt + x
     return residual
 
