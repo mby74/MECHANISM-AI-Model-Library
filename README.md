@@ -66,8 +66,7 @@ MECHANISM-AI is designed to demonstrate measurable improvements in (i) predictio
 
 ## 5. Scalability, DOE Integration and Future Directions (Phase II Vision)
 
-This framework is designed for extension to other biological and dynamical systems, integration with DOE AI ecosystems (e.g., American Science Cloud); large-scale simulation using HPC (e.g., ORNL Frontier)  
-and multimodal data integration across experiments and models.  The future directions (Phase II Vision) include 
+This framework is designed for large-scale deployment using DOE leadership computing resources (e.g., ORNL Frontier) to enable high-dimensional parameter exploration, large-scale model evaluation and integration of multimodal datasets. The future directions (Phase II Vision) include 
 
 - Expansion to multi-system biological and environmental models  
 - Generalization to energy-relevant complex systems  
