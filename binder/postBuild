@@ -1,1 +1,4 @@
+#!/bin/bash
+set -e
 
+python -m ipykernel install --user --name mechanism-ai-model-library --display-name "Python (MECHANISM-AI)"
