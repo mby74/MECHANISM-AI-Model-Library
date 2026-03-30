@@ -73,7 +73,7 @@ This framework is designed for large-scale deployment using DOE leadership compu
 - Development of a shared AI–mechanistic model library  
 - Deployment as a scalable scientific discovery platform  
 
-## 6. Workflow
+## 6. Workflow and Interactive Demo (Binder)
 We use the following workflow:
 1. BindCraft generates candidates peptide binders for blocking LPS 
 2. Mechanistic models and PINNs predict receptor activation, NF-κB response, and nonlinear effects
@@ -83,6 +83,23 @@ We use the following workflow:
 (i) which peptides to test,  
 (ii) which peptide design space to explore, and 
 (iii) which system behavior space (e.g., activation vs suppression zones or dimerization thresholds) to explore.
+
+
+A prototype mechanistic model of TLR4–NF-κB signaling is available as an executable, browser-based demo using Binder:
+
+👉 Launch here:  
+https://mybinder.org/v2/gh/mby74/MECHANISM-AI-Model-Library/HEAD?urlpath=tree/mechanistic_models/signaling/bagaev2019_tlr4_nfkb_bmdm
+
+This demo includes:
+
+- A validated mechanistic model of TLR4-mediated NF-κB signaling (Bagaev et al., 2019)  
+- Simulation of signaling dynamics under different perturbations  
+- Reproducible computational environment (no local installation required)  
+
+This serves as a **baseline mechanistic model** within the MECHANISM-AI framework for rapid testing of hypotheses, integration with AI-based surrogate models , and uncertainty-aware prediction and model refinement. 
+This demonstrates early **execution readiness** for the iterative AI–mechanistic workflow proposed in Phase I.
+
+
 
 5. Item 4 feeds item 5
 
