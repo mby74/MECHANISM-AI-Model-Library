@@ -1,5 +1,53 @@
 # MECHANISM-AI-Model-Library
 
+# 🚀 MECHANISM-AI  
+**Multi-scale, Explainable Control and Hypothesis-driven Analysis of Nonlinear Systems via Mechanistic AI**
+
+---
+
+## 🔷 Overview
+
+**MECHANISM-AI** is an iterative, mechanism-guided AI framework for discovering governing rules and control strategies in nonlinear, multi-scale biological systems.
+
+The framework integrates:
+
+- Structure-based molecular design (e.g., peptide–protein interactions)  
+- Mechanistic modeling (receptor dynamics, signaling pathways)  
+- AI/ML (including Physics-Informed Neural Networks and LLM-assisted reasoning)  
+- Uncertainty Quantification (UQ)  
+- Experimental feedback loops  
+
+The **TLR4-mediated immune signaling pathway** is used as a testbed system, while the overall goal is to develop a generalizable AI-enabled scientific discovery platform.
+
+---
+
+## 🔷 Motivation
+
+Current AI-driven approaches in biology often optimize binding affinity but fail to predict functional outcomes (e.g., signaling response).
+
+Biological systems are:
+- Nonlinear  
+- Multi-scale  
+- Highly context-dependent  
+
+**MECHANISM-AI addresses this gap by linking:**
+
+**Structure → Dynamics → Function**
+
+This enables:
+- Predictive modeling of system-level responses  
+- Discovery of interpretable governing rules  
+- AI-guided identification of control mechanisms  
+
+This aligns with the DOE GENESIS Mission goal of achieving AI advantage in scientific discovery.
+
+---
+
+## 🔷 Core Workflow
+
+The framework follows an iterative closed-loop learning process:
+
+
 ## 1. Project Goal
 
 The goal of this project is to develop a multi-scale, AI–mechanistic modeling framework for understanding and controlling nonlinear biological systems.
