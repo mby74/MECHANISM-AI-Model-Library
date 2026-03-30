@@ -1,0 +1,33 @@
+name: bagaev2019_tlr4_nfkb_bmdm
+citation: "Bagaev AV et al. Scientific Reports (2019) 9:4563"
+doi: "10.1038/s41598-018-36052-5"
+biomodels_id: "MODEL1809230001"
+
+scale: signaling
+purpose: forward
+
+model_type: reduced_ode
+
+inputs:
+  - lps_stimulation_strength
+  - basal_nfkb_fraction
+
+outputs:
+  - nfkb_nuclear_timecourse
+  - time_to_peak
+
+parameters:
+  - k_act
+  - k_deg
+
+data_source: "Derived from reported trends in Figure 3-type results"
+
+reproducibility:
+  target: "Time-to-peak vs basal NF-κB level"
+  status: "working_reduced_model"
+  notebook: "notebooks/reproduce_bagaev2019_reduced.ipynb"
+
+traceability:
+  literature_linked: true
+  sbml_available: true
+  reduced_model_used: true
