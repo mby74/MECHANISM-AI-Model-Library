@@ -1,0 +1,35 @@
+name: kruger2017_tlr4_dimerization
+citation: "Krüger CL et al. Science Signaling (2017)"
+doi: "10.1126/scisignal.aan1308"
+
+scale: receptor
+purpose: forward
+
+inputs:
+  - ligand_type
+  - receptor_density
+
+outputs:
+  - monomer_fraction
+  - dimer_fraction
+
+parameters:
+  - k_on
+  - k_off
+
+assumptions:
+  - homogeneous_membrane
+  - steady_state_analysis
+
+uncertainty_type: deterministic
+
+data_source: "Derived from reported dimer fractions in Krüger et al. (2017)"
+
+reproducibility:
+  target: "dimer fraction vs ligand condition"
+  status: "in_progress"
+
+traceability:
+  literature_linked: true
+  data_digitized_from_figure: false
+  derived_from_summary_statistics: true
