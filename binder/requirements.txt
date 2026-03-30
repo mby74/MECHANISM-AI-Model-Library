@@ -5,3 +5,4 @@ scipy==1.13.1
 notebook==7.2.1
 jupyterlab==4.2.3
 ipykernel==6.29.5
+scikit-learn==1.5.1
