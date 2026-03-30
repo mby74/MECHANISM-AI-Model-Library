@@ -5,7 +5,7 @@
 
 ---
 
-## 🔷 Overview
+## 1. Overview
 
 **MECHANISM-AI** is an iterative, mechanism-guided AI framework for discovering governing rules and control strategies in nonlinear, multi-scale biological systems.
 
@@ -21,7 +21,7 @@ The **TLR4-mediated immune signaling pathway** is used as a testbed system, whil
 
 ---
 
-## 🔷 Motivation
+## 2. Motivation
 
 Current AI-driven approaches in biology often optimize binding affinity but fail to predict functional outcomes (e.g., signaling response).
 
@@ -43,9 +43,6 @@ This aligns with the DOE GENESIS Mission goal of achieving AI advantage in scien
 
 ---
 
-## 🔷 Core Workflow
-
-The framework follows an iterative closed-loop learning process:
 
 
 ## 1. Project Goal
