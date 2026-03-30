@@ -1,0 +1,4 @@
+parameter,value,units,description,source
+k_act,0.05,1/min,NF-kB activation rate,calibrated_reduced_model
+k_deg,0.01,1/min,NF-kB decay/export rate,calibrated_reduced_model
+S,1.0,dimensionless,LPS stimulation strength,assumed
