@@ -101,7 +101,15 @@ This demo includes:
 This serves as a **baseline mechanistic model** within the MECHANISM-AI framework for rapid testing of hypotheses, integration with AI-based surrogate models , and uncertainty-aware prediction and model refinement. 
 This demonstrates early **execution readiness** for the iterative AI–mechanistic workflow proposed in Phase I.
 
+PINN Demo (Binder) An interactive PINN demo is available:
 
+Launch:
+https://mybinder.org/v2/gh/mby74/MECHANISM-AI-Model-Library/HEAD?urlpath=tree/hybrid_models/pinns/notebooks/demo_pinn.ipynb
+
+This demonstrates:
+- Physics-informed neural network training
+- Learning dynamics from differential equations
+- Integration of mechanistic constraints into AI models
 
 5. Item 4 feeds item 5
 
