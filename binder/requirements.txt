@@ -1,9 +1,14 @@
+# Core scientific computing
 numpy==1.26.4
-pandas==2.2.2
-matplotlib==3.8.4
 scipy==1.13.1
+matplotlib==3.8.4
+pandas==2.2.2
+
+# Machine learning
+scikit-learn==1.5.1
+torch==2.0.0
+
+# Jupyter environment
 notebook==7.2.1
 jupyterlab==4.2.3
-ipykernel==6.29.5
-scikit-learn==1.5.1
 
