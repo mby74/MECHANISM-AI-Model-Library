@@ -1,3 +1,6 @@
+## Live Demo
+
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mby74/MECHANISM-AI-Model-Library/HEAD?urlpath=/tree/mechanistic_models/signaling/bagaev2019_tlr4_nfkb_bmdm/notebooks/reproduce_bagaev2019_reduced.ipynb)
 # Bagaev 2019 TLR4–NF-κB Model in Primary Macrophages
 
 ## Citation
