@@ -1,0 +1,22 @@
+name: bagaev2019_time_to_peak_surrogate
+hybrid_type: surrogate
+linked_mechanistic_model: mechanistic_models/signaling/bagaev2019_tlr4_nfkb_bmdm
+
+scale: signaling
+purpose: surrogate
+
+inputs:
+  - basal_nfkb_fraction
+  - lps_stimulation_strength
+  - k_act
+  - k_deg
+
+outputs:
+  - time_to_peak
+  - peak_nfkb
+
+training_source:
+  - mechanistic_simulation
+
+uncertainty_type: none
+status: initial_version
