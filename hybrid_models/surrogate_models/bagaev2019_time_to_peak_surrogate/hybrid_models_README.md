@@ -116,7 +116,7 @@ This ensures:
 
 ---
 
-## 🔄 Data Flow
+##  Data Flow
 
 ### Training
 
@@ -132,7 +132,7 @@ Hybrid Model → Fast Prediction → Candidate Selection → Mechanistic Validat
 
 ---
 
-## 📁 Example Structure
+##  Example Structure
 
 ```
 hybrid_models/
@@ -149,7 +149,7 @@ Each hybrid model contains:
 
 ---
 
-## 🧠 Design Principles
+##  Design Principles
 
 - Mechanistic-first: biology defines the system  
 - Hybrid augmentation: AI enhances, not replaces  
@@ -159,7 +159,7 @@ Each hybrid model contains:
 
 ---
 
-## 🚀 Role in the Full System
+##  Role in the Full System
 
 Hybrid models enable:
 
@@ -176,7 +176,7 @@ single-model analysis → integrated biological system modeling
 
 ---
 
-## 📌 Current Status
+##  Current Status
 
 - Surrogate models: implemented  
 - PINNs: planned  
@@ -184,7 +184,7 @@ single-model analysis → integrated biological system modeling
 
 ---
 
-## 🔮 Next Steps
+##  Next Steps
 
 - Add uncertainty quantification (UQ)  
 - Expand surrogate coverage across models  
@@ -193,7 +193,7 @@ single-model analysis → integrated biological system modeling
 
 ---
 
-## 🧠 Key Insight
+##  Key Insight
 
 **Mechanistic models define the biology.  
 Hybrid models make it scalable.**
