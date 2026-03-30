@@ -1,0 +1,23 @@
+Source paper:
+Dey S, Boucher D, Pitchford J, Lagos D.
+Mathematical modelling of activation-induced heterogeneity in TNF, IL6, NOS2, and IL1β expression reveals cell state transitions underpinning macrophage responses to LPS.
+Wellcome Open Research. 2022;7:29.
+
+Associated repository:
+NoRM (Macrophage activation induced heterogeneity)
+
+Candidate source files in repository:
+- bmdm_tnf.csv
+- bmdm_il6.csv
+- bmdm_il1b.csv
+- bmdm_nos2.csv
+- raw_rep_avg_tnf.csv
+- raw_rep_avg_il6.csv
+- raw_rep_avg_il1b.csv
+- raw_rep_avg_nos2.csv
+
+Initial curation choice:
+Start with BMDM TNF as the smallest reproducible dataset unless another marker is easier to map directly to a figure.
+
+Notes:
+Record exact source filename, commit/date accessed, column meanings, and any renaming performed during processing.
