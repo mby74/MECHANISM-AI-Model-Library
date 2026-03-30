@@ -23,12 +23,7 @@ The **TLR4-mediated immune signaling pathway** is used as a testbed system, whil
 
 ## 2. Motivation
 
-Current AI-driven approaches in biology often optimize binding affinity but fail to predict functional outcomes (e.g., signaling response).
-
-Biological systems are:
-- Nonlinear  
-- Multi-scale  
-- Highly context-dependent  
+Current AI-driven approaches in biology often optimize binding affinity but fail to predict functional outcomes (e.g., signaling response). Biological systems are nonlinear, multi-scale, and highly context-dependent.   
 
 **MECHANISM-AI addresses this gap by linking:**
 
