@@ -4,13 +4,16 @@
 
 The goal of this project is to develop a multi-scale, AI–mechanistic modeling framework for understanding and controlling nonlinear biological systems.
 
-Specifically, the framework aims to:
+This project aims to:
 
 - Link molecular interactions (e.g., peptide binding) to system-level functional responses (e.g., NF-κB signaling)
 - Enable uncertainty-aware prediction and decision-making
 - Support iterative, closed-loop discovery through integration of AI, mechanistic models, and experimental data
 
-The TLR4–MD-2 signaling pathway is used as a testbed system, with the broader goal of developing a generalizable platform for biological discovery and design.
+The TLR4–MD-2 signaling pathway is used as a testbed system, with the broader goal of developing a generalizable platform for biological discovery and design. This is significant bacuase excessive Toll-like receptor 4 (TLR4) activation drives harmful inflammation in pediatric conditions including septic shock and severe Gram-negative infections. Current approaches broadly suppress inflammation and risk impairing host defense. There is currently no approved therapy that selectively attenuates lipopolysaccharide (LPS)-driven signaling while preserving protective immune response. There is an urgent need to develop precision approaches to block pathogenic inflammation while preserving immunity. Conventional one-shot design pipelines optimize structural affinity but do not incorporate functional signaling feedback. As shown in Figure 1, we propose an iterative AI framework that integrates experimental signaling data to refine design hypotheses and improve immune modulation. 
+
+
+
 
 
 ## 2. Model Library Architecture
