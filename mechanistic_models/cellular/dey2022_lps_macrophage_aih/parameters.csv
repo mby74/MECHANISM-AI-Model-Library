@@ -1,0 +1,6 @@
+parameter,value,units,source,notes
+model_variant,NoRM,n/a,Dey2022,Activation-induced heterogeneity model family
+cell_type,BMDM,n/a,Dey2022,Initial curated reproduction target
+marker,TNF,n/a,Dey2022,Smallest first reproducible target
+stimulation,LPS,n/a,Dey2022,Primary stimulation context
+timepoints,see_data_file,n/a,NoRM_repository,Use published CSV values directly for first milestone
