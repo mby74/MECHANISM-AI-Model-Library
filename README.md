@@ -16,7 +16,6 @@ The TLR4–MD-2 signaling pathway is used as a testbed system, with the broader 
 ![Picture1](https://github.com/user-attachments/assets/80f1f194-cb20-45a2-9004-dcccae3749d7)
 
 
-
 ## 2. Model Library Architecture
 
 The MECHANISM-AI model library is organized as a modular, multi-scale framework that integrates mechanistic models, hybrid AI approaches, and uncertainty-aware decision-making within a unified system.
