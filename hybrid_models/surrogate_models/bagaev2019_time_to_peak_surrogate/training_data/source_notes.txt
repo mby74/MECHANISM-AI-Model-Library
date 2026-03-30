@@ -1,0 +1,12 @@
+Training data provenance:
+Generated from the reduced Bagaev 2019 mechanistic model.
+
+Mechanistic source:
+mechanistic_models/signaling/bagaev2019_tlr4_nfkb_bmdm/src/model.py
+
+Generation method:
+Parameter sweep over basal NF-kB fraction, stimulation strength, k_act, and k_deg.
+
+Outputs recorded:
+- time_to_peak
+- peak_nfkb
