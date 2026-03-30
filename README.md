@@ -26,7 +26,7 @@ We use the following workflow:
 (ii) which peptide design space to explore, and 
 (iii) which system behavior space (e.g., activation vs suppression zones or dimerization thresholds) to explore.
 
-### 5. Item 4 feeds item 5
+5. Item 4 feeds item 5
 
 
 ## 3. Model Library Architecture
