@@ -15,6 +15,13 @@ The TLR4–MD-2 signaling pathway is used as a testbed system, with the broader 
 
 --------------------------> ![Picture2](https://github.com/user-attachments/assets/7f82896d-744a-4f20-a4e0-eaecd2562b64)
 
+We use the following workflow:
+### 1. BindCraft  will Generate candidates peptide binders for blocking LPS 
+### 2. Mechanistic models and PINNs will predict receptor activation, NF-κB response, and nonlinear effects
+### 3. UQ will identify high-confidence candidates and uncertain regions
+### 4. Items 2 and 3 will provide feedback to prioritize which peptides to test,  which peptide design space to explore, and which system behavior space (e.g., activation vs suppression zones or dimerization thresholds) to explore.
+### 5. Item 4 feeds item 5
+
 
 ## 2. Model Library Architecture
 
