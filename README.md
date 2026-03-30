@@ -90,6 +90,8 @@ A prototype mechanistic model of TLR4–NF-κB signaling is available as an exec
 👉 Launch here:  
 https://mybinder.org/v2/gh/mby74/MECHANISM-AI-Model-Library/HEAD?urlpath=tree/mechanistic_models/signaling/bagaev2019_tlr4_nfkb_bmdm
 
+After launching, open the provided notebook to run signaling simulations, visualize NF-κB response curves and explore parameter perturbations. In particular, the model produces time-course simulations of NF-κB activation under different perturbations, enabling comparison between predicted and experimentally observed signaling dynamics. 
+
 This demo includes:
 
 - A validated mechanistic model of TLR4-mediated NF-κB signaling (Bagaev et al., 2019)  
