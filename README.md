@@ -21,7 +21,7 @@ The **TLR4-mediated immune signaling pathway** is used as a testbed system, whil
 
 Current AI-driven approaches in biology often optimize binding affinity but fail to predict functional outcomes (e.g., signaling response). Biological systems are nonlinear, multi-scale, and highly context-dependent.   
 
-**MECHANISM-AI addresses this gap by linking** predicted molecular structures to multi-scale dynamics across molecular, receptor, signaling, cellular, and tissue levels, enabling the prediction of functional outcomes such as pathway activation, nonlinear signaling responses, and system-level behavior.
+**MECHANISM-AI addresses this gap by linking** predicted molecular structures to multi-scale dynamics across molecular, receptor, signaling, cellular, and tissue levels, bridging structural interactions (e.g., binding and conformational changes) with emergent functional outcomes such as pathway activation and nonlinear system behavior..
 
 **Structure → Dynamics → Function**
 
