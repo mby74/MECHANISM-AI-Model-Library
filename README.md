@@ -3,7 +3,7 @@
 
 ## 1. Overview
 
-**MECHANISM-AI** is an iterative, mechanism-guided AI framework for discovering governing rules and control strategies in nonlinear, multi-scale biological systems.
+**MECHANISM-AI** (Multi-scale, Explainable Control and Hypothesis-driven Analysis of Nonlinear Immune Systems via Mechanistic AI) is an iterative, mechanism-guided AI framework for discovering governing rules and control strategies in nonlinear, multi-scale biological systems.
 
 The framework integrates:
 
