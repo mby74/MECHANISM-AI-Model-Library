@@ -1,16 +1,16 @@
 # Model Library for Project MECHANISM-AI
 
 **MECHANISM-AI**: 
--<sub><ins>**M**<ins><sub>ultiscale, 
--</sub><ins>**E**<ins><sub>xplainable</sub> 
--<ins>**C**<ins><sub>ontrol and</sub> 
--<ins>**H**<ins><sub>ypothesis-driven</sub> 
--<ins>**A**<ins><sub>nalysis of</sub> 
--<ins>**N**<ins><sub>onlinear</sub> 
--<ins>**I**<ins><sub>mmune</sub> 
--<ins>**S**<ins><sub>ystems via</sub> 
--<ins>**M**<ins><sub>echanistic</sub> 
--<ins>**AI**<ins></sub>
+<sub><ins>**M**<ins><sub>ultiscale, 
+</sub><ins>**E**<ins><sub>xplainable</sub> 
+<ins>**C**<ins><sub>ontrol and</sub> 
+<ins>**H**<ins><sub>ypothesis-driven</sub> 
+<ins>**A**<ins><sub>nalysis of</sub> 
+<ins>**N**<ins><sub>onlinear</sub> 
+<ins>**I**<ins><sub>mmune</sub> 
+<ins>**S**<ins><sub>ystems via</sub> 
+<ins>**M**<ins><sub>echanistic</sub> 
+<ins>**AI**<ins></sub>
 
 
 
