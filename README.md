@@ -78,12 +78,7 @@ We use the following workflow:
 1. BindCraft generates candidates peptide binders for blocking LPS 
 2. Mechanistic models and PINNs predict receptor activation, NF-κB response, and nonlinear effects
 3. Uncertainty quantification (UQ) identifies high-confidence candidates and uncertain regions
-4. Items 2 and 3 provide feedback to prioritize 
-
-(i) which peptides to test,  
-(ii) which peptide design space to explore, and 
-(iii) which system behavior space (e.g., activation vs suppression zones or dimerization thresholds) to explore.
-
+4. Items 2 and 3 provide feedback to prioritize (i) which peptides to test, (ii) which peptide design space to explore, and (iii) which system behavior space (e.g., activation vs suppression zones or dimerization thresholds) to explore.
 5. Item 4 feeds item 5
 
 A prototype mechanistic model of TLR4–NF-κB signaling is available as an executable, browser-based demo using Binder:
