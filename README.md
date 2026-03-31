@@ -1,9 +1,9 @@
 # Model Library for Project MECHANISM-AI
 
 **MECHANISM-AI**: 'M'ulti-scale, 'E'xplainable 'C'ontrol and 'H'ypothesis-driven 'A'nalysis of 'N'onlinear 'I'mmune 'S'ystems via 'M'echanistic 'AI'
-# **M**<sub>ulti-scale,</sub> **E**<sub>xplainable</sub> **C**<sub>ontrol and</sub> **H**<sub>ypothesis-driven</sub> **A**<sub>nalysis of</sub> **N**<sub>onlinear</sub> **I**<sub>mmune</sub> **S**<sub>ystems via</sub> **M**<sub>echanistic</sub> **AI**
+# **M**<sub>ulti-scale,<ins></sub> **E**<sub>xplainable</sub><ins> **C**<sub>ontrol and</sub> **H**<sub>ypothesis-driven</sub> **A**<sub>nalysis of</sub> **N**<sub>onlinear</sub> **I**<sub>mmune</sub> **S**<sub>ystems via</sub> **M**<sub>echanistic</sub> **AI**
 
-<ins>underlined word</ins>
+
 
 ## 1. Overview
 **MECHANISM-AI** is an iterative, mechanism-guided AI framework for discovering governing rules and control strategies in nonlinear, multi-scale biological systems.
