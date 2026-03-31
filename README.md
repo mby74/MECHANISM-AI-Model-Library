@@ -1,4 +1,4 @@
-# MECHANISM-AI-Model-Library
+# Model Library for Project MECHANISM-AI
 
 
 ## 1. Overview
