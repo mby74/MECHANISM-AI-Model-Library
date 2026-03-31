@@ -83,7 +83,7 @@ We use the following workflow:
 (i) which peptides to test,  
 (ii) which peptide design space to explore, and 
 (iii) which system behavior space (e.g., activation vs suppression zones or dimerization thresholds) to explore.
-
+5. Item 4 feeds item 5
 
 A prototype mechanistic model of TLR4–NF-κB signaling is available as an executable, browser-based demo using Binder:
 
@@ -117,7 +117,7 @@ This demonstrates:
 - Learning dynamics from differential equations
 - Integration of mechanistic constraints into AI models
 
-5. Item 4 feeds item 5
+
 
 
 ## 7. Model Library Architecture
