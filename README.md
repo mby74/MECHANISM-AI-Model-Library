@@ -17,7 +17,7 @@ The **TLR4-mediated immune signaling pathway** is used as a testbed system, whil
 
 
 
-## 2. Motivation
+## 2. Motivation: From Structure-Based to Function-Guided Peptide Design
 
 Current AI-driven approaches in biology often optimize binding affinity but fail to predict functional outcomes (e.g., signaling response). Biological systems are nonlinear, multi-scale, and highly context-dependent.   
 
@@ -32,6 +32,29 @@ This enables:
 
 This aligns with the DOE GENESIS Mission goal of achieving AI advantage in scientific discovery.
 
+Conventional peptide design pipelines, such as BindCraft, generate candidates based on structural information and binding affinity. While effective for identifying peptides that bind to target proteins (e.g., the TLR4–MD-2 complex), these approaches do not account for downstream biological responses such as NF-κB activation or cytokine production.
+
+In the MECHANISM-AI framework, functional outcomes obtained from mechanistic modeling, hybrid models (e.g., PINNs), and experimental data are used to refine peptide design hypotheses. These system-level insights are not directly used as inputs to BindCraft; instead, they are translated into updated structure-based design constraints, such as redefining target binding regions, modifying geometric constraints, and prioritizing peptides predicted to alter signaling dynamics.
+
+This enables an iterative design loop in which functional outcomes inform updated structural constraints, guiding subsequent BindCraft design cycles toward peptides that achieve desired system-level effects.
+
+### From Binding-Based Design to Function-Guided Peptide Design: Integration of Mechanistic AI with BindCraft
+| Category | Conventional Design Hypothesis | Updated System-Level Hypothesis | How Knowledge Is Embedded into BindCraft Inputs | Improvement in Peptide Design |
+|----------|--------------------------------|--------------------------------|------------------------------------------------|--------------------------------|
+| Binding vs Function | High peptide binding affinity to MD-2 or TLR4 will inhibit LPS-induced signaling | Binding does not necessarily reduce NF-κB activation; functional outcome depends on receptor activation and signaling dynamics | Prioritize peptides predicted to reduce NF-κB activation and filter out high-affinity but non-functional binders | Select peptides based on functional impact, not just binding affinity |
+| Target Site | Peptides should block the LPS binding pocket on MD-2 | Binding at dimerization interfaces or allosteric regions may more effectively alter TLR4 activation | Redefine target regions in BindCraft to include dimerization interfaces and allosteric sites | Target functionally relevant regions |
+| Receptor Activation | Blocking LPS binding will prevent TLR4 activation | Activation depends on receptor dimerization and spatial organization | Introduce geometric constraints to disrupt receptor dimerization | Design peptides that disrupt receptor organization |
+| Signaling Response | Reducing receptor activation reduces NF-κB signaling | NF-κB signaling exhibits nonlinear threshold behavior | Enforce design constraints that achieve sufficient disruption to cross activation thresholds | Design peptides that reduce NF-κB activation effectively |
+| Modeling Level | Structure-based docking is sufficient | Functional outcomes emerge from multi-scale interactions | Use mechanistic models to pre-screen and rank candidates | Predict system-level responses before experiments |
+| Hybrid Models (PINNs) | Not used | PINNs learn signaling dynamics from equations and data | Use PINNs as fast surrogate models to evaluate peptide impact on signaling | Efficient exploration of design space |
+| LLM-Assisted Reasoning | Not used | LLMs generate and refine mechanistic hypotheses | Use LLMs to suggest new binding regions and constraints for BindCraft | Improve design strategy exploration |
+| Context Dependence | Peptide effect is fixed | Response depends on cellular context and receptor state | Evaluate and refine constraints across biological conditions | Design context-aware peptides |
+| Optimization Objective | Maximize binding affinity | Optimize reduction of NF-κB activation and cytokine response | Combine binding metrics with predicted functional outcomes | Shift to functional optimization |
+| Interpretation of Failure | Failed peptides are discarded | Failure reveals missing mechanistic understanding | Update constraints by excluding ineffective regions and patterns | Improve design iteratively |
+| Role of Peptides | Peptides block LPS binding | Peptides can modulate signaling dynamics | Design peptides to alter NF-κB activation patterns | Enable modulation instead of simple inhibition |
+| Search Strategy | Screen based on binding scores | Use AI and uncertainty quantification | Use UQ to select informative candidates and refine constraints | Reduce experimental burden |
+
+This framework transforms peptide design from a structure-based screening process into a mechanism-guided, function-aware system capable of iteratively improving design strategies based on biological response.
 
 ## 3. Overarching Goal
 
