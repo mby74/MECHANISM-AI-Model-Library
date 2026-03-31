@@ -1,6 +1,6 @@
 # Model Library for Project MECHANISM-AI
 
-**MECHANISM-AI**: Multi-scale, Explainable Control and Hypothesis-driven Analysis of Nonlinear Immune Systems via Mechanistic AI
+**MECHANISM-AI**: <ins>M<ins>ulti-scale, Explainable Control and Hypothesis-driven Analysis of Nonlinear Immune Systems via Mechanistic AI
 
 
 
