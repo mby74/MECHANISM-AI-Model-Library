@@ -4,29 +4,6 @@
 # **M**<sub>ulti-scale,</sub> **E**<sub>xplainable</sub> **C**<sub>ontrol and</sub> **H**<sub>ypothesis-driven</sub> **A**<sub>nalysis of</sub> **N**<sub>onlinear</sub> **I**<sub>mmune</sub> **S**<sub>ystems via</sub> **M**<sub>echanistic</sub> **AI**
 
 
-<svg xmlns="http://w3.org" width="900" height="40">
-  <style>
-    .big { font: bold 32px sans-serif; fill: #24292f; }
-    .small { font: normal 18px sans-serif; fill: #24292f; }
-  </style>
-  <text x="0" y="30">
-    <tspan class="big">M</tspan><tspan class="small">ulti-scale, </tspan>
-    <tspan class="big">E</tspan><tspan class="small">xplainable </tspan>
-    <tspan class="big">C</tspan><tspan class="small">ontrol and </tspan>
-    <tspan class="big">H</tspan><tspan class="small">ypothesis-driven </tspan>
-    <tspan class="big">A</tspan><tspan class="small">nalysis of </tspan>
-    <tspan class="big">N</tspan><tspan class="small">onlinear </tspan>
-    <tspan class="big">I</tspan><tspan class="small">mmune </tspan>
-    <tspan class="big">S</tspan><tspan class="small">ystems via </tspan>
-    <tspan class="big">M</tspan><tspan class="small">echanistic </tspan>
-    <tspan class="big">AI</tspan>
-  </text>
-</svg>
-
-
-
-
-
 ## 1. Overview
 **MECHANISM-AI** is an iterative, mechanism-guided AI framework for discovering governing rules and control strategies in nonlinear, multi-scale biological systems.
 
